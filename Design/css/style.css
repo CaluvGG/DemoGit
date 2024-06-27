@@ -1,0 +1,60 @@
+
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-straight/css/uicons-thin-straight.css');
+
+body{
+    /* background-color: rgb(76, 101, 92); */
+    background-image: linear-gradient(rgb(216, 123, 123),rgb(174, 13, 13));
+    height: 1000px;
+    overflow-x: hidden;
+}
+
+.Headphones img{
+    width: 100%;
+}
+
+.InputForm{
+    /* center the items in the div  */
+    display: flex;
+    align-items: center;
+
+    /* center the div of form*/
+    margin: 0 auto;
+
+    background-color: #14c02e80;
+    
+    width:fit-content;
+    height: fit-content;
+}
+form{
+    /* center content in the form */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin:0.5em auto;
+    width: 25em;
+    padding: 0.8em;
+    height: fit-content;
+    background-color: antiquewhite;
+    
+}
+/* Each row of the form */
+.rowForm{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Label text */
+.rowForm label:hover{
+    font-weight: bolder;
+}
+/* Input frame */
+.rowForm input{
+    background-color: rgba(137, 43, 226, 0.212);
+}
+.rowForm input:hover{
+    background-color: rgba(14, 17, 190, 0.212);
+}
+
